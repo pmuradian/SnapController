@@ -1,11 +1,11 @@
-# SnapController ##
+SnapController
 SnapController is a small controller class that enables horizontal and vertical snap functionality on UIViews.
 ---
-## Setup ##
+Setup
 
 You have two views, **view1** and **view2**, **view2** is a subview of **view1**, you want **view2** to snap to **view1's** center vertically and horizontally.
 ---
-## Usage ##
+Usage
 
 @objc protocol Snapable {
     @objc dynamic var nextCenter: Point {get set}
